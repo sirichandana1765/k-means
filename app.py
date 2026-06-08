@@ -202,7 +202,7 @@ with tab_charts:
         ax.tick_params(colors='#94a3b8', labelsize=10)
         
         # Legend custom styling
-        legend = ax.legend(facecolor='#1e293b', edgecolor='rgba(255,255,255,0.1)', fontproperties={'size': 9})
+        legend = ax.legend(facecolor='#1e293b', edgecolor=(1, 1, 1, 0.1), prop={'size': 9})
         for text in legend.get_texts():
             text.set_color('white')
             
